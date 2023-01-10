@@ -10,6 +10,7 @@ const Navbar = () => {
             Workout B<span className="u">u</span>ddy
           </h1>
         </Link>
+          <h2>Your pesonal workout plan</h2>
       </div>
     </header>
   );

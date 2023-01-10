@@ -1,6 +1,5 @@
 /* google font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap");
 
 /* layout */
 :root {
@@ -12,27 +11,42 @@ body {
   margin: 0;
   font-family: "Poppins";
 }
+
 header {
   background: #fff;
 }
+
 header .container {
   max-width: 1400px;
   margin: 0 auto;
   padding: 10px 20px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
+
+.container h2 {
+  font-weight: 200;
+  font-size: 12px;
+  padding: 0%;
+  margin: 0%;
+}
+
+.container h1 {
+  padding: 0%;
+  margin: 0%;
+}
+
 header a {
   color: #333;
   text-decoration: none;
-
 }
-.u{
-    color: #851aac;
+.u {
+  color: #851aac;
 }
 
-.pages{
+.pages {
   max-width: 1400px;
   padding: 20px;
   margin: 0 auto;
@@ -50,7 +64,7 @@ header a {
   margin: 20px auto;
   padding: 20px;
   position: relative;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
 }
 .workout-details h4 {
   margin: 0 0 10px 0;
@@ -73,7 +87,8 @@ header a {
   color: #333;
 }
 
-label, input {
+label,
+input {
   display: block;
 }
 input {
@@ -103,15 +118,10 @@ div.error {
   margin: 20px 0;
 }
 
-input.error{
+input.error {
   border: 1px solid var(--error);
 }
 
-
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
